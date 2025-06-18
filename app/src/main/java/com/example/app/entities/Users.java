@@ -8,8 +8,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity
-@Table(name = "tb_users")
+@Entity // MARCA PARA O HIBERNATE/JPA IDENTIFICAR PARA CRIAÇÃO DE TABELA
+@Table(name = "tb_users") // PERSONALIZA O NOME DA TABELA
 public class Users implements Serializable {
     private static final long serialVersionUID = 1L;
 
