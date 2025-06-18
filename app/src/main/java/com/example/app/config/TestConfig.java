@@ -14,7 +14,7 @@ import com.example.app.repositores.UserRepository;
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
 
-    @Autowired // Resolve a dependencia de associação de um objeto a outro.
+    @Autowired // Resolve a injeção dependencia de associação de um objeto a outro.
     private UserRepository userRepository;
 
     @Override
